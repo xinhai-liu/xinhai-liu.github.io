@@ -1,2 +1,5 @@
-# xinhailiu.github.io
-Personal website of Xinhai Liu — AI, Credit Technology, Data Economy and FinTech
+# xinhai-liu.github.io
+
+Personal website of Xinhai Liu.
+
+See `README_EDITING_GUIDE.md` for maintenance instructions.
