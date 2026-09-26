@@ -33,10 +33,10 @@
 打开 `books.html`，复制一个 `<article class="card">...</article>`。以后若加入封面，可创建 `assets/images/` 并加入 `<img src="assets/images/book-cover.jpg" alt="Book cover">`。
 
 ## 6. 修改顶部导航
-顶部导航统一在 `assets/site.js` 的 `const navItems = [...]` 里维护。修改一次，所有页面同步。
+顶部导航统一在 `site.js` 的 `const navItems = [...]` 里维护。修改一次，所有页面同步。
 
 ## 7. 修改颜色 / 字体 / 页面宽度
-都在 `assets/styles.css` 顶部的 `:root { ... }` 中。
+都在 `styles.css` 顶部的 `:root { ... }` 中。
 
 ## 8. 上传到 GitHub Pages
 把整个文件结构上传到仓库根目录。GitHub Pages 使用 `main` + `/(root)`。
@@ -87,3 +87,8 @@
 首页 `index.html` 也同步增加了一个简短的 Profile 段落。
 
 以后如果任职变化，优先修改 `CURRENT ROLES`，不需要重写整个 Biography。
+
+
+## GitHub 当前目录结构说明
+
+本修正版采用扁平目录：`styles.css` 和 `site.js` 与 `index.html` 放在同一层，适配当前 GitHub 仓库。
